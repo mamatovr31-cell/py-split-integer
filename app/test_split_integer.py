@@ -40,9 +40,9 @@ def test_should_add_zeros_when_value_is_less_than_number_of_parts() -> None:
     assert min(parts) == 0
 
 
-def test_example_17_4_returns_expected_list():
+def test_example_17_4_returns_expected_list() -> None:
     assert split_integer(17, 4) == [4, 4, 4, 5]
 
 
-def test_example_32_6_returns_expected_list():
+def test_example_32_6_returns_expected_list() -> None:
     assert split_integer(32, 6) == [5, 5, 5, 5, 6, 6]
